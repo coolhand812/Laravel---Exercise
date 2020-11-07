@@ -31,4 +31,3 @@ Route::get('/', function () {
 //    return 'pagina de prueba';
 //})->name('catX');
 
-Route::get('/prueba', 'PruebaController@index');
