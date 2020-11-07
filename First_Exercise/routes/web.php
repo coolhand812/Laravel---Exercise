@@ -32,3 +32,6 @@ Route::get('/', function () {
 //})->name('catX');
 
 Route::get('/test', 'TestController@index'); //empty controller
+
+Route::resource('categories', 'CategoriesController');
+
