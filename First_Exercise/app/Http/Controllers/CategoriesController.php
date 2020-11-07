@@ -49,7 +49,9 @@ class CategoriesController extends Controller
         //
         $title = 'Categories';
 
-        return view("categories", compact('id', 'title'));
+        $items = ['Item 1', 'Item 2', 'Item 3'];
+
+        return view("categories", compact('id', 'title', 'items'));
     }
 
     /**
