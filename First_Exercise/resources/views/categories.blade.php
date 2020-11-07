@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categories</title>
-</head>
-<body>
+@extends('layouts.app')
+
+@section('content')
+
     <h1>Category {{$id}}</h1>
-</body>
-</html>
+
+@endsection
+
+@section('content')
+
+    {{$title}}
+
+@endsection

@@ -47,7 +47,9 @@ class CategoriesController extends Controller
     public function show($id)
     {
         //
-        return view("categories")->with('id', $id);
+        $title = 'Categories';
+
+        return view("categories", compact('id', 'title'));
     }
 
     /**
