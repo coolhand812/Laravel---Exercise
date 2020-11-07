@@ -47,7 +47,7 @@ class CategoriesController extends Controller
     public function show($id)
     {
         //
-        return "Category ". $id;
+        return view("categories")->with('id', $id);
     }
 
     /**
