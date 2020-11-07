@@ -11,3 +11,11 @@
     {{$title}}
 
 @endsection
+
+@section('scripts')
+
+    <script>
+        alert('hola mundo');
+    </script>
+
+@endsection
